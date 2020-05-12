@@ -1,7 +1,8 @@
 # SimpleCalculator
 A Simple Calculator made with WPF C# for Windows 10
 
-# If you want a calculator that is as simple as possible, this is it!
+If you want a calculator that is as simple as possible, this is it!
+
 You can multiply, divide, add and subtract.
 
 You can also clear the current value being entered with CE.
