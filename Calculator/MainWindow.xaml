@@ -1,0 +1,34 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="Calculator" Height="620" Width="450">
+    <Grid>
+        <Label x:Name="Result" Content="0" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="96" Width="422" FontSize="72" HorizontalContentAlignment="Right" Background="#FFDEF1FF" BorderThickness="2" BorderBrush="Black" />
+        <Button x:Name="SignChangeButton" Content="+/-" HorizontalAlignment="Left" Margin="12,493,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="48" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="DecimalButton" Content="," HorizontalAlignment="Left" Margin="192,493,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="ZeroButton" Content="0" HorizontalAlignment="Left" Margin="102,493,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="OneButton" Content="1" HorizontalAlignment="Left" Margin="12,404,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="TwoButton" Content="2" HorizontalAlignment="Left" Margin="102,404,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="ThreeButton" Content="3" HorizontalAlignment="Left" Margin="192,404,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="FourButton" Content="4" HorizontalAlignment="Left" Margin="12,314,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="FiveButton" Content="5" HorizontalAlignment="Left" Margin="102,314,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="SixButton" Content="6" HorizontalAlignment="Left" Margin="192,314,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="SevenButton" Content="7" HorizontalAlignment="Left" Margin="12,224,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="EightButton" Content="8" HorizontalAlignment="Left" Margin="102,224,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="NineButton" Content="9" HorizontalAlignment="Left" Margin="192,224,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+        <Button x:Name="MinusButton" Content="-" HorizontalAlignment="Left" Margin="352,493,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="PlusButton" Content="+" HorizontalAlignment="Left" Margin="352,404,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="DivisionButton" Content="/" HorizontalAlignment="Left" Margin="352,314,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="MultiplicationButton" Content="*" HorizontalAlignment="Left" Margin="352,224,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+        <Button x:Name="ClearButton" Content="CE" HorizontalAlignment="Left" Margin="12,125,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="ClearAllButton" Content="C" HorizontalAlignment="Left" Margin="102,125,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="EqualButton" Content="=" HorizontalAlignment="Left" Margin="352,125,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="56" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+    </Grid>
+</Window>
