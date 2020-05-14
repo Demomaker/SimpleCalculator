@@ -1,4 +1,7 @@
 # SimpleCalculator
+
+![image](https://user-images.githubusercontent.com/18319764/81882717-69589200-9561-11ea-840a-aa792d4a3765.png)
+
 A Simple Calculator made with WPF C# for Windows 10
 
 If you want a calculator that is as simple as possible, this is it!
